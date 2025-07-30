@@ -30,11 +30,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 4. Install Dependencies
 pip install -r requirements.txt
-If you don’t have a requirements.txt, you can create one manually:
-
-streamlit
-numpy
-scikit-learn
 
 4. Place the Model File
 Make sure the regression_model.pkl (your trained model) is in the same directory as app.py.
